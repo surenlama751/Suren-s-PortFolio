@@ -2,20 +2,20 @@ body{
     background:rgba(0,0,0,0.5);
     margin:0;
     background:url(image/background.jpg);
-    background-size:cover;
+    background-size:100%;
     background-repeat:no-repeat;
-    min-width:1375px;
-    min-height:150px;
+    
     
     
 }
+/****************Navigation Bar***********/
 #logo{
     opacity:0.5;
-    height:50px;
-    width:100px;
+    height:3vw;
+    width:5vw;
     display:flex;
     float:left;
-    margin-left:100px;
+    margin-left:6vw;
     box-shadow:0 2px 0 black;
 }
 #logo:hover{
@@ -36,8 +36,8 @@ li.page{
     display: flex;
     float:left;
     font-weight:bold;
-    margin-left:50px;
-    font-size:25px;
+    margin-left:2.5vw;
+    font-size:1.3vw;
     color:rgb(231, 223, 212);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
@@ -53,15 +53,15 @@ li.page:hover{
 .nav{
     display:flex;
     justify-content: flex-end;
-    margin-right:400px;
+    margin-right:20vw;
 }
 
 #button1{
     opacity:0.7;
     position:absolute;
     margin-top:0;
-    margin-left:200px;
-    font-size:25px;
+    margin-left:10vw;
+    font-size:1.3vw;
     background:transparent;
     color:white
     
@@ -71,7 +71,7 @@ li.page:hover{
    cursor: pointer;
    opacity:1;
    
-   
+/*************Social Media*********/   
 }
 .socio{
     margin-top:250px;
@@ -98,7 +98,7 @@ li.page:hover{
 #socio2{color:#FFC0CB; margin-top:35px;animation: slideInRight 1.5s ease-in 0.1s; }
 #socio3{color:#d1e0e6; margin-top:95px; animation: slideInRight 1.5s ease-in 0.1s; }
 #socio4{color:#00acee; margin-top:165px;animation: slideInRight 1.5s ease-in 0.1s; }
-
+/***********Informations**********/
 .information{
     height:200px;
     width:750px;
@@ -227,3 +227,5 @@ animation-fill-mode:both; */
 }
 
 
+/*Media Query*/
+@media screen and (max-width:)
